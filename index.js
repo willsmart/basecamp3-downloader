@@ -68,7 +68,7 @@ if (showHelp || missingArgumentText) {
   if (showHelp) missingArgumentText = '';
 
   console.log(
-    `Usage:\n  node index.js -t '<token>' -e <email> -a <account> <other options>\n\nAll available options:\n${helpText}\n${missingArgumentText}`
+    `Usage:\n  node index.js -t '<token>' -e <email> -a <account> <other options>\n  Environment variables can also be used instead of specifying -t, -e, and -a arguments\n\nAll available options:\n${helpText}\n${missingArgumentText}`
   );
   process.exit(missingArgumentText ? 1 : 0);
 }

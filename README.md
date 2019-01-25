@@ -12,7 +12,7 @@ First, the tool needs some information. Run ..
 
     . get_info.sh
 
-.. which will guide you through the (semi complicated) process of obtaining a token to access the basecamp 3 api.
+.. which will guide you through the process of obtaining a token to access the basecamp 3 api.
 
 Afterwards, run ..
 

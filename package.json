@@ -1,0 +1,14 @@
+{
+  "name": "basecamp2dumper",
+  "version": "1.0.0",
+  "description": "A simple node.js module to download all resources available to a basecamp 3 user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "willsmart",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

@@ -64,3 +64,4 @@ results/*
 !results/docs
 results/docs/*
 !keeper
+get_info.env.sh

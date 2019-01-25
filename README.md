@@ -16,6 +16,7 @@ First, the tool needs some information. Run ..
 
 Afterwards, run ..
 
+    npm install
     node index.js
 
 .. to download the resources from basecamp.

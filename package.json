@@ -1,5 +1,5 @@
 {
-  "name": "basecamp2dumper",
+  "name": "basecamp2downloader",
   "version": "1.0.0",
   "description": "A simple node.js module to download all resources available to a basecamp 3 user.",
   "main": "index.js",

@@ -1,4 +1,4 @@
-// basecamp3dumper ( https://github.com/willsmart/basecamp3-dumper )
+// basecamp3downloader ( https://github.com/willsmart/basecamp3-downloader )
 // Author: Will Smart ( https://github.com/willsmart )
 // Licence: MIT
 //   Please enjoy and tweak as you see fit.
@@ -30,8 +30,8 @@ const token = getProcessArgument(
   app =
     getProcessArgument(
       '--app',
-      "The app name.\n This is used in the user agent string sent to basecamp.\nDefault is 'basecamp3dumper'"
-    ) || 'basecamp3dumper',
+      "The app name.\n This is used in the user agent string sent to basecamp.\nDefault is 'basecamp3downloader'"
+    ) || 'basecamp3downloader',
   delayPerURL =
     getProcessArgument(
       ['--delayeach', '-d'],

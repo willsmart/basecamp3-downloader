@@ -44,6 +44,15 @@ The results are put in the `results` directory:
     - For resources that are not JSON, the value given in this JSON file is the path of the file in the `results/docs` directory where the resource file is stored.
 - `results/tmp_results.json`: stores the partial `results.json` file every so often just in case the tool crashes before finishing (this seems to be very rare, never happened to me, but the temp file is a nice backstop. Default interval is 10 seconds)
 
+### Runtime
+
+As it's running the app gives feedback about progress. The most useful part of this for figuring out how long the process will take is the progress reporting lines like:
+
+    [3] <71> {0}
+
+In this instance the app has done 3 iterations, has 71 queued URLs still to download, and has 0 outstanding requests currently in flight.
+Essentially the number to watch here is the `<71>`, which starts at 1 (i.e. the projects resource), will grow fairly quickly as resource URLs are discovered, and will eventually shrink back down to 0 as all resources get downloaded. The app will quit when there are no more URLs queued up and no outstanding requests in flight, or when the maximum number of iterations is reached (see `--help`)
+
 ### Ordering
 
 Finder order: First-found-first-downloaded, last-found-last-downloaded.

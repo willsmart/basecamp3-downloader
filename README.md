@@ -4,10 +4,9 @@
 
 This is a simple tool that downloads and stores all the basecamp resources a given non-admin user has access to. 
 I found a need for a tool that comprehensively downloads resources from basecamp and had a spare couple of evenings, and so here we are!
+I really hope it gets some use. Enjoy!
 
 Note that if you have access to an admin account, I recommend you use the basecamp data exporter instead -- https://3.basecamp-help.com/article/150-export-your-basecamp-data.
-
-I really hope it gets some use. Enjoy!
 
 ## How to use
 
